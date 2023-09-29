@@ -1,0 +1,259 @@
+:root {
+    --color-light: #fff;
+    --color-purple: rgb(70, 14, 110);
+    --color-purple-menu: rgb(175, 147, 228);
+    --color-purple-bg: rgb(241, 199, 255);
+    --color-black: #000;
+    --color-video: #f5f2fc;
+}
+
+.text-purple {
+    color: var(--color-purple);
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+header{
+position: sticky;
+top: 0;
+background-color: var(--color-light);
+z-index: 100;
+box-shadow: 2px 2px 2px 1px rgba(191, 182, 239, 0.1);
+}
+
+.bi-arrow-down-circle {
+    position: relative;
+    top: 2px
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.logo-menu {
+    color: var(--color-purple);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.nav-link {
+    font-size: 15px;
+    color: var(--color-purple);
+    font-weight: 600;
+
+}
+
+.nav-link:hover {
+    color: var(--color-purple);
+}
+
+nav ul li a:hover {
+    background-color: var(--color-purple-menu);
+    border-radius: 24px;
+}
+
+.bold-word {
+    font-weight: 800;
+    color: var(--color-purple);
+
+}
+
+.text-hist {
+    text-align: justify;
+}
+
+.historiastrobo {
+    min-height: 100vh;
+
+}
+
+/* Robocup - Carrossel */
+.carousel {
+    border-radius: 10px;
+}
+
+.sobrerocobucup {
+    min-height: 100vh;
+    align-items: center;
+}
+
+
+.carousel-inner img {
+    border-radius: 10px;
+}
+
+/* Paleta de cores para a tabela */
+
+.table-primary-purple {
+    --bs-table-color: var(--color-black);
+    --bs-table-bg: #bface3;
+    --bs-table-border-color: #a198a1;
+    --bs-table-striped-bg: var(--color-black);
+    --bs-table-striped-color: var(--color-black);
+    --bs-table-active-bg: #dba5e0;
+    --bs-table-active-color: var(--color-black);
+    --bs-table-hover-bg: #cfb7dc;
+    --bs-table-hover-color: var(--color-black);
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+}
+
+.video-container {
+    background-color: var(--color-video);
+    padding: 20px;
+}
+
+.arma-astrobo{
+    min-height: 100vh;
+    align-items: center;
+}
+
+.investidores{
+    min-height: 100vh;
+    align-items: center;
+}
+
+/* Cards - time */
+
+.card-img-top {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 0;
+    padding: 20px;
+    border: none;
+}
+
+.bi {
+    font-size: 25px;
+    color: var(--color-purple)
+}
+
+.bi:hover {
+    cursor: pointer;
+    color: var(--color-black)
+}
+
+.sobreastrobo {
+    min-height: 100vh;
+}
+
+.nossotime {
+    min-height: 100vh;
+}
+
+/* Paleta de cores para o accordion */
+
+.accordion-astrobo {
+    --bs-accordion-color:var(--color-black);
+    --bs-accordion-bg:var(--color-light);
+    --bs-accordion-border-color: var(--color-black);
+    --bs-accordion-btn-color: var(--color-black);
+    --bs-accordion-btn-focus-border-color: var(--color-black);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(221, 200, 234, 0.25);
+    --bs-accordion-active-color:var(--color-black);
+    --bs-accordion-active-bg: #efd7fc;
+}
+
+/* Contato */
+
+.contato {
+    min-height: 100vh;
+}
+
+.contato .content {
+    flex-wrap: wrap-reverse;
+}
+
+.contato .form {
+    margin-top: 50px;
+    max-width: 450px;
+    flex: 1 1 auto;
+}
+
+.contato .form h3 {
+    color: var(--color-purple);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contato .form form>input,
+.contato .form form textarea {
+    display: block;
+    font-size: 15px;
+    background: #fefafe;
+    border-color: #e9b9e9;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(151, 127, 207, 0.2);
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+::placeholder {
+    color: #5a5a5a;
+}
+
+.contato .form form textarea {
+    resize: vertical;
+    min-height: 150px;
+    max-height: 300px;
+}
+
+.contato .form form .radio-buttons label {
+    color: var(--color-purple);
+    font-weight: 600;
+    margin-right: 6px;
+    margin-left: 10px;
+}
+
+.contato .form form button {
+    color: var(--color-light);
+    background-color: var(--color-purple);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 0;
+    margin-top: 15px;
+    width: 150px;
+}
+
+/* Footer - rodape */
+
+footer {
+	background-color: var(--color-purple-bg);
+	color: var(--color-black);
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: var(--color-black);
+	text-decoration: none;
+}
